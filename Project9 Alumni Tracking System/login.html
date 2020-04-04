@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login | Arya Alumni</title>
+	<!-- Web-Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese"
+        rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&amp;subset=latin-ext" rel="stylesheet">
+    <!-- //Web-Fonts -->
+    <!-- Custom-Files -->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- Bootstrap-CSS -->
+    <link href="css/style-nav.css" rel='stylesheet' type='text/css' />
+    <link href="css/style-login.css" rel='stylesheet' type='text/css' />
+    <!-- Style-CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Font-Awesome-Icons-CSS -->
+</head>
+<body>
+	<!-- header -->
+    <header>
+        <div class="container">
+            <div class="header d-lg-flex justify-content-between align-items-center py-2 px-sm-2 px-1">
+                <!-- logo -->
+                <div id="logo">
+                    <h1><a href="index.html">Arya Alumni</a></h1>
+                </div>
+                <!-- //logo -->
+                <!-- nav -->
+                <div class="nav_w3ls ml-lg-5">
+                    <nav>
+                        <label for="drop" class="toggle">Menu</label>
+                        <input type="checkbox" id="drop" />
+                        <ul class="menu">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#chat">Chats</a></li>
+                            <li><a href="#profile">Profile</a></li>
+                            <li><a href="login.html" class="btn btn-primary">Login</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- //nav -->
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+    <div class="inner-banner-w3ls py-5" id="home">
+        <div class="container py-xl-5 py-lg-3">
+    <!-- login  -->
+            <div class="modal-body my-5 pt-4">
+                <h3 class="title-w3 mb-5 text-center text-wh font-weight-bold">Login Now</h3>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label class="col-form-label">Phone</label>
+                        <input type="text" class="form-control" placeholder="Your Number" name="Name" required="" maxlength="10">
+                    	<button type="button" class="btn btn-secondary">Generate OTP</button>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="col-form-label">OTP</label>
+                        <input type="password" class="form-control" placeholder="Enter OTP here" name="Password" required="">
+                    </div>
+                    <button type="submit" class="btn button-style-w3">Login</button>
+                    <div class="row sub-w3l mt-3 mb-5">
+                        <div class="col-sm-6 sub-w3layouts_hub">
+                            <input type="checkbox" id="brand1" value="">
+                            <label for="brand1" class="text-li text-style-w3ls">
+                                <span></span>Remember me?</label>
+                        </div>
+                        <div class="col-sm-6 forgot-w3l text-sm-right">
+                            <a href="#" class="text-li text-style-w3ls">Forgot Password?</a>
+                        </div>
+                    </div>
+                    <p class="text-center dont-do text-style-w3ls text-li">Don't have an account?
+                        <a href="register.html" class="font-weight-bold text-li">
+                            Register Now</a>
+                    </p>
+                </form>
+            </div>
+            <!-- //login -->
+             </div>
+    </div>
+
+</body>
+</html>
